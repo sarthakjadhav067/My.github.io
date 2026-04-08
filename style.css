@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background: #444;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00adb5;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Grid Layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Cards */
+.card {
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Gallery */
+#gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Dark Mode */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark header,
+.dark footer {
+  background: black;
+}
+
+.dark nav {
+  background: #222;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
